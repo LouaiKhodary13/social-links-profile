@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-links-container {
+  width: 300px;
+  height: 600px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.profile-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: block;
+}
+.profile-username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.profile-username h2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+.profile-username p {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 400;
+}
+.profile-username span {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #a6a6a6;
+  font-weight: 400;
+}
+.profile-social-links-wrapper {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.profile-social-links-wrapper button {
+  width: 250px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #fff;
+  font-weight: 600;
+}
+.profile-social-links-wrapper button:hover {
+  background-color: #c4f82a;
+  color: #233408;
+  font-weight: 300;
+}
+.profile-social-links-wrapper button:first-child {
+  margin-top: 10px;
+}
